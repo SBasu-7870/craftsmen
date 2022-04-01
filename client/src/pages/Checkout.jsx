@@ -40,11 +40,12 @@ const Checkout = () => {
             </div>
             <p>$65.00</p>
           </figure>
-          <button className='black-btn w-25'>
-            <span className='px-1'>CHECKOUT</span>
-            <i className='fas fa-long-arrow-alt-right icon-design'></i>
-          </button>
-          <div>
+
+          <div className='item-details-checkout-section'>
+            <button className='black-btn w-25'>
+              <span className='px-1'>CHECKOUT</span>
+              <i className='fas fa-long-arrow-alt-right icon-design'></i>
+            </button>
             <p>Free Shopping , Free Returns</p>
           </div>
         </section>

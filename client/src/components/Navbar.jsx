@@ -40,7 +40,6 @@ export default function Navbar(props) {
     }
     },[]);
 
-  
 
   return (
     <nav id={isScroll ? 'main-navbar-solid' : 'main-navbar-transparent'}>
@@ -125,7 +124,7 @@ export default function Navbar(props) {
             </div>
             <div>
               <div className='navbar-icons'>
-                <a href='#!' className='navbar-icons-styling'>
+                <a href='/login' className='navbar-icons-styling'>
                   <i className='far fa-user'></i>
                 </a>
 
